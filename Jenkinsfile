@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'mvn deploy'
+                echo 'new change'
             }
         }
     }
