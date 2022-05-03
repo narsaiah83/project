@@ -15,7 +15,13 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'mvn deploy'
-            }
+		}
+	 }
+	 stage('Deploy') {
+            steps {
+                echo 'success'
+		}
+	
         }
     }
 }
