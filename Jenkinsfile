@@ -15,7 +15,12 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'mvn deploy'
+<<<<<<< HEAD
             }
+=======
+		}
+	
+>>>>>>> a6366484dc17aa8967f2fb93909ced449910beed
         }
     }
 }
